@@ -1,0 +1,64 @@
+
+.card-main{
+    margin-left: 20px;
+    max-width: 290px;
+
+}
+.card {
+    margin: 0 15px 30px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    max-width: 290px;
+
+
+}
+
+.card-img img{
+    width: 290px;
+    height: 258px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-header{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Nunito-SemiBold", sans-serif;
+    color: #563482;
+    font-weight: 700;
+}
+
+.card-description{
+    margin-top: 15px;
+    margin-bottom: 45px;
+    font-family: "Nunito-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #293747;
+}
+
+.card-price{
+    font-family: "Nunito-SemiBold", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #563482;
+}
+
+.card-button{
+    font-weight: 500;
+    font-family: "Nunito-Medium", sans-serif;
+    font-size: 20px;
+    padding: 7px 20px 7px 20px;
+    background-color: #9992FF;
+    border-radius: 20px;
+    border: none;
+    color: azure;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    align-items: center;
+    padding-bottom: 15px;
+}
