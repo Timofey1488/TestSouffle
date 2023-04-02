@@ -11,10 +11,12 @@ export interface CartContextType {
   addToCart: (product: IProduct) => void;
   removeFromCart: (id: number) => void;
   getTotal: () => number;
+  cartNull: () => void;
 }
 
 export const CartContext = React.createContext<CartContextType>({
   cart: [],
+  cartNull: () => {},
   addToCart: () => {},
   removeFromCart: () => {},
   getTotal: () => 0,
@@ -25,7 +27,6 @@ function Product({ product }: ProductProps) {
   const handleAddToCart = (product: IProduct) => {
     addToCart(product);
   };
-
   return (
     <>
       <div className="card">

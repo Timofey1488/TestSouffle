@@ -31,9 +31,14 @@ function App() {
       0
     );
   };
+  const cartNull = () => {
+    return setCart([]);
+  };
 
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart, getTotal }}>
+    <CartContext.Provider
+      value={{ cart, addToCart, removeFromCart, getTotal, cartNull }}
+    >
       <div className="App">
         <Navbar />
         <div className="wrapper">

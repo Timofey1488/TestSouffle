@@ -3,13 +3,15 @@ import "./style.css";
 import { CartContext } from "../Product/Product";
 import CartItems from "../CartItem/CartItem";
 import SuccessModal from "../Modal/Modal";
+import { CartItem } from "../../models";
 
 function Cart() {
-  const { cart, getTotal } = useContext(CartContext);
+  const { cart, getTotal, cartNull } = useContext(CartContext);
   const [showModal, setShowModal] = useState(false);
 
   const handleCheckout = () => {
     setShowModal(true);
+    cartNull();
   };
   return (
     <div className="cart-box">

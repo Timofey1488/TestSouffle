@@ -5,10 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b56b1468-2b13-4bfb-ab0b-dbe205ca3076" name="Changes" comment="pre-final variant">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app" beforeDir="false" afterPath="$PROJECT_DIR$/souffle-web-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/.idea/souffle-web-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/components/Cart/Cart.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/components/Cart/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/components/CartItem/CartItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/components/CartItem/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/components/Header/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/components/Header/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/components/Modal/Modal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/components/Modal/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/components/Product/Product.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/components/Product/styleProduct.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/data/products.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/fonts/Nunito-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/fonts/Nunito-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/fonts/Nunito-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/fonts/Nunito-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/fonts/Nunito-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/images/close-circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/images/close-circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/images/ico_suffle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/images/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/images/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/images/wordpress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/models.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/src/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/souffle-web-app/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Product/Product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product/Product.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +76,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Dell\\souffle\\souffle-web-app\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Dell\\souffle\\souffle-web-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Dell/souffle/souffle-web-app",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Dell\\souffle\\souffle-web-app\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "ts.external.directory.path": "C:\\Users\\Dell\\test\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\souffle\souffle-web-app\public" />
